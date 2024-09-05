@@ -36,7 +36,7 @@ app.use(taskRouter)
 //With middleware: new request -> pass through middleware -> run route handler
 
 
-app.listen(PORT , '0.0.0.0', ()=>{
+app.listen(port , '0.0.0.0', ()=>{
     console.log('Server is running on port ' + port)
 })
 
